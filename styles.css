@@ -1,0 +1,60 @@
+body {
+  background:#111; /* Fondo exterior oscuro */
+  font-family:'Gloria Hallelujah', cursive, system-ui;
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Contenedor general con fondo blanco */
+.postcard {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background:#fff;
+  border-radius:10px;
+  box-shadow:0 12px 30px rgba(0,0,0,.35);
+  overflow:hidden;
+}
+
+/* Columna izquierda */
+.texto {
+  padding:20px;
+  color:#111;
+}
+
+.formulario {
+  padding:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+form {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  width:100%;
+}
+
+input {
+  border:none;
+  border-bottom:2px solid #ccc;
+  padding:6px;
+  font:inherit;
+  background:transparent;
+  outline:none;
+}
+
+button {
+  background:#ccc;
+  border:none;
+  padding:6px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+button:hover {
+  background:#bbb;
+}
