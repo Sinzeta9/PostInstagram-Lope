@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lope les desea felices fiestas</title>
+  </head>
+
+  <body>
+    <div class="postcard">
+      <div class="texto">
+        <h1>Hola, soy Edu ¡Feliz Navidad!</h1>
+        <p>Esta postal está to wapens!</p>
+        <p>La primera postal creada por un grinch</p>
+        <p>Está traducida por Lope hecha con HTML5 y CSS3.</p>
+        <p>No ha quedado mal del todo</p>
+        <p>Es un pequeño paso para un estudiante</p>
+        <p>Pero un gran paso para la humanidad</p>
+      </div>
+
+      <div class="formulario">
+        <form>
+          <input type="text" placeholder="nombre" />
+          <input type="email" placeholder="mail" />
+          <input type="text" placeholder="comentarios" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
